@@ -1,9 +1,8 @@
 body {
-display: block;
+//display: block;
 }
 
 /* header setion*/
-
 
 
 header {
@@ -14,13 +13,14 @@ header {
   height: 90px;
   align-items: center;
   position: fixed;
-  z-index: 5;
+  z-index: 1;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   justify-content: space-between;
   padding-right: 20px;
   padding-right: 20px;
+  margin-top: -10px;
 
 }
 
@@ -61,6 +61,7 @@ div {
   padding-top: 116px;
   padding-top: 116px;
   font-family: Georgia;
+  margin-bottom: 50px;
 }
 
 .column .large {
@@ -112,6 +113,7 @@ div {
     color: white;
     height: 300px;
     width: 300px;
+    margin-top: 15px;
     //justify-content: center;
     text-align: center;
 }
@@ -165,6 +167,7 @@ footer {
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
+  margin: auto;
 }
 
 .info {
